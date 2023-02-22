@@ -31,6 +31,9 @@ namespace KütüphaneOtomasyon
 
         }
 
+
+
+
         private void btnUyeEkle_Click(object sender, EventArgs e)
         {
             UyeEkleFrm uyeekle = new UyeEkleFrm();
