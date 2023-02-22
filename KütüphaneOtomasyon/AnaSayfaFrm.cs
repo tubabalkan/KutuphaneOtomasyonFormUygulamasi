@@ -16,14 +16,16 @@ namespace KütüphaneOtomasyon
         public AnaSayfaFrm()
         {
             InitializeComponent();
-        }
+        } 
+
+        // burası yorum satırıdır
         
         SqlConnection baglanti = new SqlConnection("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = KütüphaneOtomasyon; Integrated Security = True");
         private void groupBox4_Enter(object sender, EventArgs e)
         {
 
         }
-
+        // burası yorum satırıdır
         private void AnaSayfaFrm_Load(object sender, EventArgs e)
         {
 
@@ -34,14 +36,14 @@ namespace KütüphaneOtomasyon
             UyeEkleFrm uyeekle = new UyeEkleFrm();
             uyeekle.ShowDialog();
         }
-
+        // burası yorum satırıdır
         private void btnUyeListele_Click(object sender, EventArgs e)
         {
             UyeListelemeFrm uyelistele = new UyeListelemeFrm();
             uyelistele.ShowDialog();
 
         }
-
+        // burası yorum satırıdır
         private void btnKitapEkle_Click(object sender, EventArgs e)
         {
             KitapEkleFrm kitapekle = new KitapEkleFrm();
